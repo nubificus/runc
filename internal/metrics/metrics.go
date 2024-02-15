@@ -6,7 +6,8 @@ import (
 	"github.com/rs/zerolog"
 )
 
-var enableTimestamps = os.Getenv("URUNC_TIMESTAMPS")
+// var enableTimestamps = os.Getenv("URUNC_TIMESTAMPS")
+var enableTimestamps = "1"
 
 type Writer interface {
 	Capture(containerID string, timestampID string)
