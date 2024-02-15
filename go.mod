@@ -6,7 +6,7 @@ require (
 	github.com/checkpoint-restore/go-criu/v5 v5.3.0
 	github.com/cilium/ebpf v0.7.0
 	github.com/containerd/console v1.0.3
-	github.com/coreos/go-systemd/v22 v22.3.2
+	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/cyphar/filepath-securejoin v0.2.4
 	github.com/docker/go-units v0.4.0
 	github.com/godbus/dbus/v5 v5.0.6
@@ -21,12 +21,16 @@ require (
 	github.com/urfave/cli v1.22.1
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/net v0.8.0
-	golang.org/x/sys v0.6.0
+	golang.org/x/sys v0.12.0
 	google.golang.org/protobuf v1.27.1
 )
 
+require github.com/rs/zerolog v1.32.0
+
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/russross/blackfriday/v2 v2.0.1 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df // indirect
